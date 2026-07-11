@@ -173,18 +173,18 @@ const Hero = () => {
                   }}
                   onMouseEnter={() => setHoveredSector(item)}
                   onMouseLeave={() => setHoveredSector(null)}
-                  className={`absolute px-3 py-1.5 rounded-full bg-white border shadow-md flex items-center gap-2 text-charcoal-700 transition-all duration-500 cursor-pointer select-none whitespace-nowrap ${
+                  className={`absolute px-2.5 py-1.5 sm:px-3 sm:py-1.5 rounded-2xl sm:rounded-full bg-white border shadow-md flex items-center gap-1.5 sm:gap-2 text-charcoal-700 transition-all duration-500 cursor-pointer select-none ${
                     isHovered 
                       ? 'border-indigo-500 text-indigo-600 scale-105 shadow-indigo-200/50 shadow-lg z-30' 
                       : 'border-indigo-200/30 hover:border-indigo-400'
                   }`}
                 >
-                  <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
+                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex-shrink-0 flex items-center justify-center transition-colors ${
                     isHovered ? 'bg-indigo-500/10 text-indigo-600' : 'bg-indigo-500/5 text-indigo-700'
                   }`}>
                     {item.icon}
                   </div>
-                  <span className="text-[14px] sm:text-[12px] lg:text-[10px] tracking-wider uppercase font-bold font-sans pr-1">
+                  <span className="text-[11px] sm:text-[12px] lg:text-[10px] tracking-wider uppercase font-bold font-sans pr-1 whitespace-normal sm:whitespace-nowrap max-w-[90px] sm:max-w-none leading-tight text-left">
                     {item.label}
                   </span>
                 </div>
@@ -218,7 +218,7 @@ const Hero = () => {
                       <Sparkles size={10} className="animate-pulse" />
                       Ecosystem
                     </span>
-                    <span className="text-[11px] sm:text-[10px] lg:text-[9px] tracking-normal text-charcoal-400 block mt-0.5 font-sans font-light">
+                    <span className="text-[11px] sm:text-[10px] lg:text-[9px] tracking-normal text-charcoal-400 hidden sm:block mt-0.5 font-sans font-light">
                       Hover to explore
                     </span>
                   </div>

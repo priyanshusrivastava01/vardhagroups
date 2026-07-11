@@ -150,7 +150,7 @@ const Ventures = () => {
   const getVentureTags = (title) => {
     const t = title.toLowerCase();
     if (t.includes('fmcg')) return ["Subsidiary", "Global Trade"];
-    if (t.includes('stock') || t.includes('market') || t.includes('trading')) return ["Expert Mentorship", "Skill-Building"];
+    if (t.includes('stock') || t.includes('market') || t.includes('trading')) return ["BSE Educator", "Skill-Building"];
     if (t.includes('business') || t.includes('consulting')) return ["Strategic Growth", "Expert Advisory"];
     if (t.includes('web') || t.includes('design')) return ["Custom SaaS", "UI/UX Immersive"];
     if (t.includes('app') || t.includes('development')) return ["Mobile Engine", "iOS & Android"];
