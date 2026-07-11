@@ -14,7 +14,7 @@ const FALLBACK_VENTURES = [
     description: "Arunn Guptaa — a visionary consultant driving bold business growth, strategy & leadership.",
     logo: "/v-consulting.webp",
     coverImage: "/v-consulting.webp",
-    websiteUrl: "https://self.arunlive.com/",
+    websiteUrl: "https://www.arunlive.com/",
     category: "CONSULTING",
     isFeatured: true,
     displayOrder: 0,
@@ -25,7 +25,7 @@ const FALLBACK_VENTURES = [
     _id: "fb_1",
     title: "Vardha FMCG",
     slug: "fmcg",
-    description: "Premium organic skin care, cosmetics, and wellness products manufactured to global luxury standards.",
+    description: "Premium organic skin care, food, and wellness products of global luxury standards.",
     logo: "/v-fmcg.webp",
     coverImage: "/v-fmcg.webp",
     websiteUrl: "https://fmcg.vardha.live/",
@@ -51,9 +51,9 @@ const FALLBACK_VENTURES = [
   },
   {
     _id: "fb_2",
-    title: "STOCK MARKET TRADING",
-    slug: "stock-market-trading",
-    description: "Quantitative algorithmic trading, asset management, and equity advisory services.",
+    title: "STOCK MARKET EDUCATION",
+    slug: "stock-market-education",
+    description: "Learn trading and investing with structured courses, mock trading, and expert mentorship.",
     logo: "/v-stock.webp",
     coverImage: "/v-stock.webp",
     websiteUrl: "https://stock.vardha.live/",
@@ -150,7 +150,7 @@ const Ventures = () => {
   const getVentureTags = (title) => {
     const t = title.toLowerCase();
     if (t.includes('fmcg')) return ["Subsidiary", "Global Trade"];
-    if (t.includes('stock') || t.includes('market') || t.includes('trading')) return ["Holding Asset", "Algo-Driven"];
+    if (t.includes('stock') || t.includes('market') || t.includes('trading')) return ["Expert Mentorship", "Skill-Building"];
     if (t.includes('business') || t.includes('consulting')) return ["Strategic Growth", "Expert Advisory"];
     if (t.includes('web') || t.includes('design')) return ["Custom SaaS", "UI/UX Immersive"];
     if (t.includes('app') || t.includes('development')) return ["Mobile Engine", "iOS & Android"];

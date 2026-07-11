@@ -49,7 +49,10 @@ const WhatsAppCTA = () => {
 
         {/* Pulsing WhatsApp icon badge */}
         <div className="flex justify-center mb-8">
-          <div className="relative w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center shadow-2xl shadow-green-500/40">
+          <div 
+            onClick={() => openChat("Hi Vardha Group, I'd like to connect with you.")}
+            className="relative w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-500 flex items-center justify-center shadow-2xl shadow-green-500/40 cursor-pointer hover:scale-105 active:scale-95 transition-all duration-300"
+          >
             <span className="absolute inset-0 rounded-full bg-green-400/25 animate-ping" />
             <span className="absolute inset-2 rounded-full bg-green-400/15 animate-ping" style={{ animationDelay: '0.3s' }} />
             <WhatsAppIcon className="w-9 h-9 text-white relative z-10" />

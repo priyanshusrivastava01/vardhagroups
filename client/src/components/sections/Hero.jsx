@@ -47,8 +47,8 @@ const Hero = () => {
   const orbitItems = [
     { icon: <ShoppingCart size={16} />, label: "FMCG Products", code: "FMCG", desc: "Organic beauty & lifestyle products", angle: 0 },
     { icon: <BarChart3 size={16} />, label: "Stock Trading", code: "Finance", desc: "Quantitative algorithmic holdings", angle: 60 },
-    { icon: <Code size={16} />, label: "Website Designing", code: "Web Dev", desc: "Bespoke digital design portals", angle: 120 },
-    { icon: <Smartphone size={16} />, label: "App Development", code: "Apps", desc: "Premium iOS & Android development", angle: 180 },
+    { icon: <Code size={16} />, label: "Web & App Development", code: "Web Dev", desc: "Bespoke digital design portals", angle: 120 },
+    { icon: <Smartphone size={16} />, label: "Business Consulting", code: "Business Consulting", desc: "Premium iOS & Android development", angle: 180 },
     { icon: <Users size={16} />, label: "Co-working Space", code: "Community", desc: "Luxury office infrastructures", angle: 240 },
     { icon: <Building size={16} />, label: "Real Estate", code: "Properties", desc: "Sustainable residential towers", angle: 300 }
   ];
