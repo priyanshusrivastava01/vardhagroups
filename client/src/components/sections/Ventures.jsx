@@ -84,7 +84,7 @@ const FALLBACK_VENTURES = [
     description: "Premium commercial and luxury residential properties built for sustainable futures.",
     logo: "/v-realestate.webp",
     coverImage: "/v-realestate.webp",
-    websiteUrl: "https://vardha.live/",
+    websiteUrl: "https://builders.vardha.live/",
     category: "REAL ESTATE",
     isFeatured: true,
     displayOrder: 5,
