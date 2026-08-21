@@ -199,7 +199,7 @@ const Hero = () => {
                 
                 {/* Centered Floating Logo */}
                 <div className="animate-bounce-slow flex items-center justify-center mb-1">
-                  <LogoSVG className="w-20 h-20" glow={true} />
+                  <LogoSVG className="h-16 w-auto" glow={true} variant="full" />
                 </div>
 
                 {/* Dynamically show holding info on orbit hovering */}

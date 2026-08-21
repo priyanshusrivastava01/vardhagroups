@@ -18,16 +18,11 @@ const Footer = () => {
           
           {/* Left Column: Branding, Tagline, and Social Links */}
           <div className="lg:col-span-6 space-y-8 text-left">
-            <div className="flex items-center gap-3">
-              <LogoSVG className="w-12 h-12" />
-              <div className="flex flex-col">
-                <span className="font-serif text-2xl tracking-widest text-charcoal-900 font-bold leading-none">
-                  VARDHA
-                </span>
-                <span className="text-indigo-500 text-xs tracking-[0.25em] font-semibold uppercase leading-none mt-1">
-                  GROUP
-                </span>
-              </div>
+            <div className="flex items-center gap-2.5">
+              <LogoSVG className="h-12 sm:h-14 w-auto" variant="full" />
+              <span className="text-indigo-600 text-xs tracking-[0.25em] font-bold uppercase border-l border-indigo-200/80 pl-3 py-1 leading-none">
+                GROUP
+              </span>
             </div>
 
             <div className="space-y-1">

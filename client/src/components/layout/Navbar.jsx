@@ -72,17 +72,12 @@ const Navbar = () => {
             <Link
               to="/"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="flex items-center gap-3 group z-10"
+              className="flex items-center gap-2 group z-10"
             >
-              <LogoSVG className="w-10 h-10 transition-transform duration-500 group-hover:scale-105" />
-              <div className="flex flex-col">
-                <span className="font-serif text-xl lg:text-2xl tracking-widest text-charcoal-900 font-bold leading-none">
-                  VARDHA
-                </span>
-                <span className="text-indigo-500 text-[10px] tracking-[0.25em] font-semibold uppercase leading-none mt-1">
-                  GROUP
-                </span>
-              </div>
+              <LogoSVG className="h-10 lg:h-12 w-auto transition-transform duration-500 group-hover:scale-105" variant="full" />
+              <span className="text-indigo-600 text-[10px] lg:text-xs tracking-[0.25em] font-bold uppercase border-l border-indigo-200/80 pl-2.5 py-0.5 leading-none">
+                GROUP
+              </span>
             </Link>
 
             {/* Desktop Navigation Links */}
@@ -131,12 +126,11 @@ const Navbar = () => {
       >
         {/* Top bar inside panel with close button */}
         <div className="flex items-center justify-between px-6 py-4 border-b border-indigo-100/50">
-          <Link to="/" onClick={() => setIsOpen(false)} className="flex items-center gap-3">
-            <LogoSVG className="w-9 h-9" />
-            <div className="flex flex-col">
-              <span className="font-serif text-lg tracking-widest text-charcoal-900 font-bold leading-none">VARDHA</span>
-              <span className="text-indigo-500 text-[9px] tracking-[0.25em] font-semibold uppercase leading-none mt-0.5">GROUP</span>
-            </div>
+          <Link to="/" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
+            <LogoSVG className="h-9 w-auto" variant="full" />
+            <span className="text-indigo-600 text-[9px] tracking-[0.25em] font-bold uppercase border-l border-indigo-200 pl-2 py-0.5 leading-none">
+              GROUP
+            </span>
           </Link>
           <button
             onClick={() => setIsOpen(false)}

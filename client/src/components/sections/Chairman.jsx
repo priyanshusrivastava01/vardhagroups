@@ -39,9 +39,9 @@ const Chairman = () => {
           {/* Right Column: Corporate Philosophy & Message */}
           <div className="lg:col-span-7 text-left space-y-6">
             <div className="flex items-center gap-2">
-              <LogoSVG className="w-8 h-8 opacity-60" />
-              <span className="text-[10px] tracking-widest uppercase font-bold text-indigo-500 font-sans">
-                Vardha Leadership
+              <LogoSVG className="h-7 w-auto opacity-90" variant="full" />
+              <span className="text-[10px] tracking-widest uppercase font-bold text-indigo-500 font-sans border-l border-indigo-200 pl-2">
+                Leadership
               </span>
             </div>
 

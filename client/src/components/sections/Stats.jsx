@@ -127,8 +127,8 @@ const Stats = () => {
 
               {/* Glowing Gateway Logo SVG mounted in center */}
               <div className="absolute top-[28%] flex items-center justify-center">
-                <div className="w-20 h-20 bg-white rounded-full border border-indigo-300/20 shadow-md flex items-center justify-center hover:scale-105 transition-all duration-500">
-                  <LogoSVG className="w-16 h-16" />
+                <div className="w-24 h-20 bg-white rounded-full border border-indigo-300/20 shadow-md flex items-center justify-center hover:scale-105 transition-all duration-500 px-3">
+                  <LogoSVG className="h-12 w-auto" variant="full" />
                 </div>
               </div>
               
