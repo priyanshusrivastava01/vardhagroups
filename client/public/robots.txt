@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://vardha.live
+
+# Sitemaps
+Sitemap: https://vardha.live/sitemap.xml

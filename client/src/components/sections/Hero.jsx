@@ -94,7 +94,7 @@ const Hero = () => {
           {/* Main Headline */}
           <div ref={titleRef} className="space-y-3">
             <h1 className="text-3xl sm:text-5xl md:text-[64px] lg:text-[72px] leading-[1.05] font-bold text-charcoal-900 tracking-tight font-sans">
-              ONE GROUP<br />
+              VARDHA GROUP<br />
               <span className="text-indigo-gradient tracking-tight italic font-light font-serif">ENDLESS POSSIBILITIES</span>
             </h1>
           </div>
@@ -104,7 +104,7 @@ const Hero = () => {
             ref={subtitleRef}
             className="text-sm sm:text-base text-charcoal-500 font-sans font-light leading-relaxed max-w-lg mx-auto lg:mx-0"
           >
-            Building value across industries. Creating impact for a better tomorrow.
+            India's premier multi-sector conglomerate empowering Business Growth Consulting, Vardha FMCG, Web & App Development, Stock Market Education, Startup Workspaces, and Luxury Real Estate.
           </p>
  
           {/* Action Buttons */}
